@@ -12250,3 +12250,7 @@ pre .code {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional styling */
   display: block;
 }
+
+.icon-circle {
+  margin: 0 10px;
+}

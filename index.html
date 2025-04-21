@@ -94,7 +94,9 @@
                         memory usage. Additionally, I love reading books, mainly philosophical ones — Sapiens: A Brief
                         History of Humankind is one of my all-time favorites.
                     </p>
-                    <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                    <a href="assets/pdf/cv.pdf" download target="_blank" rel="noopener" class="btn-rounded btn btn-outline-primary mt-4">
+                        Download CV
+                      </a>
                 </div>
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
@@ -169,7 +171,19 @@
                 <!-- Repeat this block for each card -->
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm" style="border-radius: 15px; overflow: hidden;">
-                        <img src="assets/imgs/holding_drone.jpg" class="card-img-top" alt="Autonomous Drone">
+                        <div id="splide-drone" class="splide card-img-top" style="border-radius: 15px 15px 0 0;">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide"><img src="assets/imgs/holding_drone.jpg" alt="Slide 1">
+                                    </li>
+                                    <li class="splide__slide"><img src="assets/imgs/holding_drone-1.jpg" alt="Slide 2">
+                                    </li>
+                                    <li class="splide__slide"><img src="assets/imgs/holding_drone-2.jpg" alt="Slide 3">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
                         <div class="card-body">
                             <h5 class="card-title">Autonomous Drone</h5>
                             <p class="card-text">
@@ -177,20 +191,20 @@
                                 connected via 4G modem and GSM GPS.
                             </p>
                         </div>
-                        <div class="card-footer d-flex justify-content-center gap-3 bg-white border-0 pb-4">
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                        <div class="card-footer d-flex justify-content-center bg-white border-0 pb-4">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/github.png" alt="icon1" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/huggingface.png" alt="icon2" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
-                                <img src="assets/imgs/youtube-icon.png" alt="icon2" style="width: 20px;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                                <img src="assets/imgs/youtube-icon.png" alt="icon3" style="width: 20px;">
                             </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
                 <!-- Repeat ends -->
@@ -208,20 +222,21 @@
                                 image captioning etc. All of those model are avaialable on on my hugging face repo.
                             </p>
                         </div>
-                        <div class="card-footer d-flex justify-content-center gap-3 bg-white border-0 pb-4">
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                        <div class="card-footer d-flex justify-content-center bg-white border-0 pb-4">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/github.png" alt="icon1" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/huggingface.png" alt="icon2" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
-                                <img src="assets/imgs/youtube-icon.png" alt="icon2" style="width: 20px;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                                <img src="assets/imgs/youtube-icon.png" alt="icon3" style="width: 20px;">
                             </div>
                         </div>
+                        
                     </div>
                 </div>
                 <!-- Repeat ends -->
@@ -238,20 +253,21 @@
                                 image captioning etc. All of those model are avaialable on on my hugging face repo.
                             </p>
                         </div>
-                        <div class="card-footer d-flex justify-content-center gap-3 bg-white border-0 pb-4">
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                        <div class="card-footer d-flex justify-content-center bg-white border-0 pb-4">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/github.png" alt="icon1" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/huggingface.png" alt="icon2" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
-                                <img src="assets/imgs/youtube-icon.png" alt="icon2" style="width: 20px;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                                <img src="assets/imgs/youtube-icon.png" alt="icon3" style="width: 20px;">
                             </div>
                         </div>
+                        
                     </div>
                 </div>
                 <!-- Repeat ends -->
@@ -268,20 +284,21 @@
                                 image captioning etc. All of those model are avaialable on on my hugging face repo.
                             </p>
                         </div>
-                        <div class="card-footer d-flex justify-content-center gap-3 bg-white border-0 pb-4">
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                        <div class="card-footer d-flex justify-content-center bg-white border-0 pb-4">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/github.png" alt="icon1" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/huggingface.png" alt="icon2" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
-                                <img src="assets/imgs/youtube-icon.png" alt="icon2" style="width: 20px;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                                <img src="assets/imgs/youtube-icon.png" alt="icon3" style="width: 20px;">
                             </div>
                         </div>
+                        
                     </div>
                 </div>
                 <!-- Repeat ends -->
@@ -299,20 +316,21 @@
                                 image captioning etc. All of those model are avaialable on on my hugging face repo.
                             </p>
                         </div>
-                        <div class="card-footer d-flex justify-content-center gap-3 bg-white border-0 pb-4">
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                        <div class="card-footer d-flex justify-content-center bg-white border-0 pb-4">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/github.png" alt="icon1" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/huggingface.png" alt="icon2" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
-                                <img src="assets/imgs/youtube-icon.png" alt="icon2" style="width: 20px;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                                <img src="assets/imgs/youtube-icon.png" alt="icon3" style="width: 20px;">
                             </div>
                         </div>
+                        
                     </div>
                 </div>
                 <!-- Repeat ends -->
@@ -336,20 +354,21 @@
                                 Design · Virtual Reality (VR)
                             </p>
                         </div>
-                        <div class="card-footer d-flex justify-content-center gap-3 bg-white border-0 pb-4">
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                        <div class="card-footer d-flex justify-content-center bg-white border-0 pb-4">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/github.png" alt="icon1" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
                                 <img src="assets/imgs/huggingface.png" alt="icon2" style="width: 20px;">
                             </div>
-                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background-color: #f1f1f1;">
-                                <img src="assets/imgs/youtube-icon.png" alt="icon2" style="width: 20px;">
+                            <div class="rounded-circle shadow-sm d-flex align-items-center justify-content-center mx-2"
+                                 style="width: 40px; height: 40px; background-color: #f1f1f1;">
+                                <img src="assets/imgs/youtube-icon.png" alt="icon3" style="width: 20px;">
                             </div>
                         </div>
+                        
                     </div>
                 </div>
                 <!-- Repeat ends -->
@@ -787,6 +806,18 @@
         </footer>
     </div> <!-- end of page footer -->
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#splide-drone', {
+                cover: true,
+                heightRatio: 0.5,
+                type: 'loop',
+                autoplay: true,
+            }).mount();
+        });
+    </script>
+
+
     <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
@@ -796,6 +827,12 @@
 
     <!-- Meyawo js -->
     <script src="assets/js/meyawo.js"></script>
+
+    <!-- Splide CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
+    <!-- Splide JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+
 
 </body>
 
